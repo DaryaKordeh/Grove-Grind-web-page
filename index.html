@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grove & Grind — Cold-Pressed Juice & Slow-Roasted Coffee</title>
+<meta name="description" content="Grove & Grind is a neighborhood juice press and coffee roastery — cold-pressed juice, direct-trade coffee, made fresh daily. No pasteurization, no shortcuts.">
+
+<!-- Fonts: Fraunces (display), Work Sans (body), Space Mono (data/labels) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,500&family=Work+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- =========================================================
+     HEADER
+     ========================================================= -->
+<header class="site-header">
+  <nav class="nav">
+    <a href="#top" class="logo">
+      <svg class="mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="16" cy="16" r="15" stroke="#16261C" stroke-width="1.5"/>
+        <path d="M16 6c3 4 3 8 0 12s-3 8 0 12" stroke="#E8611F" stroke-width="1.5" fill="none"/>
+        <path d="M8 16h16" stroke="#16261C" stroke-width="1.5"/>
+      </svg>
+      Grove &amp; Grind
+    </a>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-hidden="true">
+
+    <ul class="nav-links">
+      <li><a href="#menu-juice">Juice</a></li>
+      <li><a href="#menu-coffee">Coffee</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#locations">Locations</a></li>
+      <li><a href="#about">Our Story</a></li>
+    </ul>
+
+    <div class="nav-cta">
+      <a href="#locations" class="btn btn-outline">Find a Location</a>
+      <label class="hamburger" for="menu-toggle" aria-label="Toggle navigation menu" tabindex="0"><span></span></label>
+    </div>
+  </nav>
+</header>
+
+<!-- =========================================================
+     HERO
+     ========================================================= -->
+<main id="top">
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="eyebrow">Riverside District, Est. 2018</span>
+      <h1>Pressed from <em>fruit.</em><br>Roasted from <em>bean.</em><br>Never from a bag.</h1>
+      <p>Grove &amp; Grind is a working juice press and coffee roastery under one roof. We wash, press, roast, and pour everything to order — nothing sits, nothing ships in from a warehouse.</p>
+      <div class="hero-actions">
+        <a href="#menu-juice" class="btn btn-solid">View the Menu</a>
+        <a href="#process" class="btn btn-outline">See How It's Made</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>150mi</strong><span>Farm Radius</span></div>
+        <div><strong>34°F</strong><span>Juice Cold-Chain</span></div>
+        <div><strong>3×</strong><span>Weekly Roast Days</span></div>
+        <div><strong>0</strong><span>Days Pasteurized</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual" role="img" aria-label="Illustrative organic blob shape in citrus and leaf colors, representing fresh juice and coffee">
+      <div class="blob"></div>
+      <div class="float-card card-1"><span class="dot orange"></span> Cold-pressed at 6am</div>
+      <div class="float-card card-2"><span class="dot green"></span> Roasted in-house</div>
+    </div>
+  </div>
+</section>
+
+<!-- Marquee -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>COLD-PRESSED DAILY</span><span>DIRECT-TRADE COFFEE</span><span>NO PASTEURIZATION</span><span>SMALL-BATCH ROASTED</span><span>150-MILE PRODUCE RADIUS</span><span>ZERO ADDED SUGAR</span>
+    <span>COLD-PRESSED DAILY</span><span>DIRECT-TRADE COFFEE</span><span>NO PASTEURIZATION</span><span>SMALL-BATCH ROASTED</span><span>150-MILE PRODUCE RADIUS</span><span>ZERO ADDED SUGAR</span>
+  </div>
+</div>
+
+<!-- =========================================================
+     ABOUT
+     ========================================================= -->
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="about-art" role="img" aria-label="Abstract dark illustration with citrus-colored circles representing the shop's interior">
+      <div class="ring ring-1"></div>
+      <div class="ring ring-2"></div>
+      <div class="slice"></div>
+    </div>
+    <div class="about-copy">
+      <div class="section-head">
+        <span class="eyebrow">Our Story</span>
+        <h2>Two crafts, one counter.</h2>
+        <p>Grove &amp; Grind started as two separate carts at the Sunday farmers market — one pressing juice, one pouring coffee. In 2018 we put them under one roof, because the same instinct runs through both: buy real ingredients close to home, handle them gently, and serve them the same day.</p>
+        <p>Every juice is pressed hydraulically, cold, within hours of your order. Every coffee is roasted in eight-kilogram batches on our drum roaster in the back window, where you can watch it happen. Nothing here is designed to sit on a shelf.</p>
+      </div>
+      <div class="value-grid">
+        <div>
+          <h4>Sourced Close</h4>
+          <p>Produce and dairy from farms within 150 miles; green coffee from direct-trade partners we've visited.</p>
+        </div>
+        <div>
+          <h4>Made to Order</h4>
+          <p>Juice is pressed and coffee is brewed after you order — nothing pre-made, nothing reheated.</p>
+        </div>
+        <div>
+          <h4>Honest Labels</h4>
+          <p>Every ingredient listed on the menu, no proprietary blends hiding added sugar or syrup.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     MENU — JUICE
+     ========================================================= -->
+<section class="menu-section" id="menu-juice">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">The Press</span>
+      <h2>Cold-Pressed Juice</h2>
+      <p>Hydraulic-pressed within hours of pickup, chilled to 34°F, and best enjoyed within three days — because there's nothing in the bottle to keep it fresh longer than that.</p>
+    </div>
+
+    <div class="menu-list">
+
+      <div class="menu-item">
+        <svg class="glyph" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3c-3 3-5 6-5 9a5 5 0 0010 0c0-3-2-6-5-9z" stroke="#7A9B5E" stroke-width="1.6"/></svg>
+        <span class="name">Emerald Greens</span>
+        <span class="size">16OZ</span>
+        <span class="price">$9</span>
+        <p class="desc">Kale, cucumber, green apple, celery, lemon, ginger.</p>
+      </div>
+
+      <div class="menu-item">
+        <svg class="glyph" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8" stroke="#E8611F" stroke-width="1.6"/><path d="M12 4v16M4 12h16" stroke="#E8611F" stroke-width="1.2"/></svg>
+        <span class="name">Sunrise Carrot</span>
+        <span class="size">16OZ</span>
+        <span class="price">$8</span>
+        <p class="desc">Carrot, orange, fresh turmeric, cracked black pepper.</p>
+      </div>
+
+      <div class="menu-item">
+        <svg class="glyph" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4a8 8 0 108 8" stroke="#E8611F" stroke-width="1.6"/><circle cx="12" cy="12" r="2.2" fill="#E8611F"/></svg>
+        <span class="name">Ruby Beet</span>
+        <span class="size">16OZ</span>
+        <span class="price">$8</span>
+        <p class="desc">Beet, apple, carrot, lime, mint.</p>
+      </div>
+
+      <div class="menu-item">
+        <svg class="glyph" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 20l10-16 2 2-10 16z" stroke="#F5B939" stroke-width="1.6"/></svg>
+        <span class="name">Pineapple Fire</span>
+        <span class="size">16OZ</span>
+        <span class="price">$9</span>
+        <p class="desc">Pineapple, jalapeño, lime, a pinch of cayenne.</p>
+      </div>
+
+      <div class="menu-item">
+        <svg class="glyph" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="7" stroke="#F5B939" stroke-width="1.6"/><path d="M12 5v14M5 12h14" stroke="#F5B939" stroke-width="1"/></svg>
+        <span class="name">Citrus Grove</span>
+        <span class="size">16OZ</span>
+        <span class="price">$8</span>
+        <p class="desc">Orange, grapefruit, lemon, local wildflower honey.</p>
+      </div>
+
+      <div class="menu-item">
+        <svg class="glyph" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="9" y="4" width="6" height="16" rx="3" stroke="#F5B939" stroke-width="1.6"/></svg>
+        <span class="name">Golden Turmeric Shot</span>
+        <span class="size">2OZ</span>
+        <span class="price">$4</span>
+        <p class="desc">Turmeric, orange, black pepper, coconut oil.</p>
+      </div>
+
+    </div>
+
+    <p class="menu-note">Ask about our weekly cleanse boxes — six juices, cold-chained, delivered the morning of. Custom blends available for allergies or preference; just tell the counter what to leave out.</p>
+  </div>
+</section>
+
+<!-- =========================================================
+     MENU — COFFEE
+     ========================================================= -->
+<section class="menu-section dark" id="menu-coffee">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">The Roast</span>
+      <h2>Slow-Roasted Coffee</h2>
+      <p>Small-batch roasted in-house three times a week, rested before it ever hits a grinder, and dialed in fresh by the barista on bar that day.</p>
+    </div>
+
+    <div class="two-col">
+      <div>
+        <span class="menu-tabs-label">Espresso Bar</span>
+        <div class="menu-list">
+          <div class="menu-item">
+            <svg class="glyph" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 10h14a2 2 0 010 4h-1M4 10v6a4 4 0 004 4h6a4 4 0 004-4v-1" stroke="#F5B939" stroke-width="1.6"/></svg>
+            <span class="name">Espresso</span>
+            <span class="size">SINGLE / DOUBLE</span>
+            <span class="price">$3.50</span>
+            <p class="desc">Our house blend, pulled short and syrupy.</p>
+          </div>
+          <div class="menu-item">
+            <svg class="glyph" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 10h14a2 2 0 010 4h-1M4 10v6a4 4 0 004 4h6a4 4 0 004-4v-1" stroke="#F5B939" stroke-width="1.6"/></svg>
+            <span class="name">Cortado</span>
+            <span class="size">4OZ</span>
+            <span class="price">$4.50</span>
+            <p class="desc">Espresso cut with steamed whole milk, 1:1.</p>
+          </div>
+          <div class="menu-item">
+            <svg class="glyph" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 10h14a2 2 0 010 4h-1M4 10v6a4 4 0 004 4h6a4 4 0 004-4v-1" stroke="#F5B939" stroke-width="1.6"/></svg>
+            <span class="name">Honey Oat Latte</span>
+            <span class="size">12OZ</span>
+            <span class="price">$5.50</span>
+            <p class="desc">House-made oat milk, wildflower honey, double shot.</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <span class="menu-tabs-label">Filter &amp; Cold</span>
+        <div class="menu-list">
+          <div class="menu-item">
+            <svg class="glyph" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 3h12l-2 9a4 4 0 01-4 3 4 4 0 01-4-3L6 3z" stroke="#F5B939" stroke-width="1.6"/></svg>
+            <span class="name">House Drip</span>
+            <span class="size">12 / 16OZ</span>
+            <span class="price">$4 / $5</span>
+            <p class="desc">Ethiopia &amp; Colombia blend, brewed fresh every 30 minutes.</p>
+          </div>
+          <div class="menu-item">
+            <svg class="glyph" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 3h12l-2 9a4 4 0 01-4 3 4 4 0 01-4-3L6 3z" stroke="#F5B939" stroke-width="1.6"/></svg>
+            <span class="name">Pour Over</span>
+            <span class="size">12OZ</span>
+            <span class="price">$6</span>
+            <p class="desc">Rotating single origin — currently Kenya Nyeri.</p>
+          </div>
+          <div class="menu-item">
+            <svg class="glyph" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 3h12l-2 9a4 4 0 01-4 3 4 4 0 01-4-3L6 3z" stroke="#F5B939" stroke-width="1.6"/></svg>
+            <span class="name">Cold Brew</span>
+            <span class="size">16OZ</span>
+            <span class="price">$5</span>
+            <p class="desc">Steeped 18 hours, served over one large cube.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="menu-note">Currently roasting: Ethiopia Guji (light, floral), Kenya Nyeri (bright, blackcurrant), Guatemala Huehuetenango (cocoa, stone fruit), Colombia Tolima (our house-blend base).</p>
+  </div>
+</section>
+
+<!-- =========================================================
+     SIGNATURE / CROSSOVER
+     ========================================================= -->
+<section class="menu-section" id="signature">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Where They Meet</span>
+      <h2>Signature Crossovers</h2>
+      <p>The drinks that only exist because the juice press and the roaster share a counter.</p>
+    </div>
+
+    <div class="signature-grid">
+      <div class="sig-card">
+        <span class="tag">Seasonal</span>
+        <h4>Orange Cascara Fizz</h4>
+        <p>Cold brew, fresh-pressed orange juice, cascara syrup made from our own coffee-cherry skins, soda.</p>
+        <div class="price-row"><span class="price">$6.50</span><span class="size" style="font-family:var(--f-mono); font-size:0.75rem; opacity:0.6;">16OZ</span></div>
+      </div>
+      <div class="sig-card">
+        <span class="tag">Caffeine-Free</span>
+        <h4>Golden Turmeric Latte</h4>
+        <p>Steamed oat milk, fresh turmeric, ginger, cinnamon, black pepper, local honey.</p>
+        <div class="price-row"><span class="price">$5.00</span><span class="size" style="font-family:var(--f-mono); font-size:0.75rem; opacity:0.6;">12OZ</span></div>
+      </div>
+      <div class="sig-card">
+        <span class="tag">Cold</span>
+        <h4>Pineapple Espresso Tonic</h4>
+        <p>Double espresso, fresh pineapple juice, tonic water, lime.</p>
+        <div class="price-row"><span class="price">$6.00</span><span class="size" style="font-family:var(--f-mono); font-size:0.75rem; opacity:0.6;">14OZ</span></div>
+      </div>
+      <div class="sig-card">
+        <span class="tag">Weekend Only</span>
+        <h4>Beet &amp; Cardamom Cold Brew</h4>
+        <p>Cold brew concentrate, ruby beet juice, cardamom, splash of oat milk.</p>
+        <div class="price-row"><span class="price">$6.50</span><span class="size" style="font-family:var(--f-mono); font-size:0.75rem; opacity:0.6;">14OZ</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     PROCESS
+     ========================================================= -->
+<section class="process" id="process">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">How It's Made</span>
+      <h2>From grove to glass. From bean to brew.</h2>
+      <p>Two parallel processes, run out of the same kitchen, on the same daily clock.</p>
+    </div>
+
+    <div class="process-tracks">
+      <div class="track juice">
+        <h3>
+          <svg class="glyph" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3c-3 3-5 6-5 9a5 5 0 0010 0c0-3-2-6-5-9z" stroke="#7A9B5E" stroke-width="1.6"/></svg>
+          Grove to Glass
+        </h3>
+        <div class="steps">
+          <div class="step" data-n="1">
+            <h4>Source</h4>
+            <p>Produce arrives daily from farms within 150 miles — nothing pre-cut or refrigerated for more than a day.</p>
+          </div>
+          <div class="step" data-n="2">
+            <h4>Wash &amp; Trim</h4>
+            <p>Every piece is hand-washed and trimmed on-site, the same morning it's pressed.</p>
+          </div>
+          <div class="step" data-n="3">
+            <h4>Cold-Press</h4>
+            <p>A hydraulic press extracts juice without heat or high-speed blades, preserving more nutrients and flavor.</p>
+          </div>
+          <div class="step" data-n="4">
+            <h4>Bottle &amp; Chill</h4>
+            <p>Bottled to order and chilled to 34°F immediately. No pasteurization — best enjoyed within three days.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="track coffee">
+        <h3>
+          <svg class="glyph" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 10h14a2 2 0 010 4h-1M4 10v6a4 4 0 004 4h6a4 4 0 004-4v-1" stroke="#2E1B12" stroke-width="1.6"/></svg>
+          Bean to Brew
+        </h3>
+        <div class="steps">
+          <div class="step" data-n="1">
+            <h4>Source</h4>
+            <p>Direct-trade relationships with growers in Ethiopia, Kenya, Guatemala, and Colombia — visited in person.</p>
+          </div>
+          <div class="step" data-n="2">
+            <h4>Roast</h4>
+            <p>Small eight-kilogram batches on our drum roaster, roasted in-house three times a week.</p>
+          </div>
+          <div class="step" data-n="3">
+            <h4>Rest</h4>
+            <p>Beans rest five to ten days after roasting so the flavor has time to develop properly.</p>
+          </div>
+          <div class="step" data-n="4">
+            <h4>Brew</h4>
+            <p>Dialed in fresh every morning by the barista on bar, then brewed to order — never batch-held.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TESTIMONIALS
+     ========================================================= -->
+<section class="testimonials">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">From the Counter</span>
+      <h2>What regulars say</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <p>"The Emerald Greens has been my Tuesday-Thursday ritual for two years. You can taste that it was pressed that morning."</p>
+        <footer>— Priya M., Regular Since 2019</footer>
+      </div>
+      <div class="testi-card">
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <p>"I finally understand why people talk about rest days for coffee. The Kenya Nyeri pour-over is a different drink from other shops."</p>
+        <footer>— Daniel O., Regular Since 2021</footer>
+      </div>
+      <div class="testi-card">
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <p>"Watching them roast through the back window while I wait for my cortado is half the reason I come in."</p>
+        <footer>— Marisol T., Regular Since 2022</footer>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     LOCATIONS
+     ========================================================= -->
+<section class="locations" id="locations">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Visit Us</span>
+      <h2>Find the counter</h2>
+    </div>
+    <div class="loc-grid">
+      <div class="loc-card">
+        <h3>Riverside District — Flagship &amp; Roastery</h3>
+        <div class="loc-row"><span>Address</span><span>118 Ferry Street, Riverside District</span></div>
+        <div class="loc-row"><span>Mon – Fri</span><span>6:30am – 6:00pm</span></div>
+        <div class="loc-row"><span>Sat – Sun</span><span>7:00am – 5:00pm</span></div>
+        <div class="loc-row"><span>Phone</span><span>(503) 555-0148</span></div>
+        <div class="loc-row"><span>Roastery Tours</span><span>Saturdays, 9am — no booking needed</span></div>
+      </div>
+      <div class="loc-card">
+        <h3>Old Mill Quarter — Juice Bar</h3>
+        <div class="loc-row"><span>Address</span><span>44 Kiln Row, Old Mill Quarter</span></div>
+        <div class="loc-row"><span>Mon – Fri</span><span>6:30am – 4:00pm</span></div>
+        <div class="loc-row"><span>Sat – Sun</span><span>8:00am – 3:00pm</span></div>
+        <div class="loc-row"><span>Phone</span><span>(503) 555-0172</span></div>
+        <div class="loc-row"><span>Notes</span><span>Juice + drip coffee only, no espresso bar</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     NEWSLETTER (static — no JS, form does not submit anywhere)
+     ========================================================= -->
+<section class="newsletter">
+  <div class="wrap">
+    <h2>Get the weekly press list</h2>
+    <p>Seasonal juice blends, new roast drops, and the occasional roastery-tour invite. One email a week, nothing more.</p>
+    <form class="news-form" action="#" onsubmit="return false;">
+      <label for="newsletter-email" class="visually-hidden" style="position:absolute; left:-9999px;">Email address</label>
+      <input type="email" id="newsletter-email" name="email" placeholder="you@email.com" required>
+      <button type="submit" class="btn btn-outline-light">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">Grove &amp; Grind</div>
+        <p>A juice press and coffee roastery in the Riverside District, pouring everything fresh, to order, since 2018.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Menu</h5>
+        <ul>
+          <li><a href="#menu-juice">Cold-Pressed Juice</a></li>
+          <li><a href="#menu-coffee">Coffee</a></li>
+          <li><a href="#signature">Signature Drinks</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Shop</h5>
+        <ul>
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#process">Our Process</a></li>
+          <li><a href="#locations">Locations</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Follow</h5>
+        <ul>
+          <li><a href="#top">Instagram</a></li>
+          <li><a href="#top">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Grove &amp; Grind Juice &amp; Coffee Co.</span>
+      <span>Riverside District · Old Mill Quarter</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
